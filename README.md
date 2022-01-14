@@ -1,2 +1,4 @@
 # Curso-de-HTML
- Projetos do curso em vídeo
+ Esse repositório estão sendo feitos no meu primeiro curso de HTML, na plataforma Curso em Vídeo.
+ WWW.cursoemvideo.com.br
+
