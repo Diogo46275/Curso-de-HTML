@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(131, 131, 226);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited {
+            color: rgb(248, 128, 128);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: blue;
+        }
+        a::before{
+            color: black;
+            content: "↪";
+        }
+        a::after {
+            color: black;
+            content: "↩";            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        
+        <li><a href="https://GitHub.com/diogo46275" target="_blank rel="external>Repositório do GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank rel="external>Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank rel="external>Site do Curso em Vídeo</a></li>
+    </ul>
+    
+</body>
+</html>
